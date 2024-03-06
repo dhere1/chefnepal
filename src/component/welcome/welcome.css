@@ -1,0 +1,48 @@
+.welcome_main_container{
+    height: 600px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url("./public/welcomevector.png");
+    background-position: centery;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.welcome_inner_container{
+   text-align: center;
+   margin-top: 30px;
+}
+.welcome_inner_container h1{
+    color: white;
+    font-family: 'uncut sans';
+    margin-bottom: 20px;
+}
+.welcome_inner_container hr{
+    width: 50%;
+    font-size: 3rem;
+    height: 3px;
+    background-color: white;
+}
+.welcome_inner_container p{
+    display: inline-block;
+   margin: 0;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    font-family: 'uncut sans';
+}
+
+@media (max-width:450px) {
+   .welcome_main_container{
+    background-image: none;
+    background-color: #DF7D40;
+    height: 380px;
+   }
+   .welcome_inner_container h1{
+        font-size: 1rem;
+   }
+   .welcome_inner_container p{
+    font-size: 0.8rem;
+   }
+}

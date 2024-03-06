@@ -1,0 +1,32 @@
+.broadcast_main_container{
+    padding: 40px;
+    margin: auto;
+  
+    border-radius: 30px;
+    margin-bottom: 30px;
+    width: 60%;
+    background: #FFFFFF;
+box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.1);
+    
+}
+.broadcast_inner_container{
+float: left;
+display: inline;
+vertical-align: middle;
+
+}
+.broadcast_inner_container h2{
+    padding-top: 2.5rem;
+}
+.broadcast_inner_container h2>span{
+    color: #DF7D40;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+.broadcast_logo{
+    float: right;
+    vertical-align: middle;
+}

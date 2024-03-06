@@ -1,0 +1,111 @@
+@import url("https://fonts.cdnfonts.com/css/uncut-sans-2");
+
+*{
+    overflow-x: hidden;
+}
+.upperpart_main_container{
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(180deg, #5E1C2C, #431F48);
+    width: 100%;
+    height: 750px;
+}
+
+.inner_container {
+width: 100%;
+padding: 30px;
+height: 700px;
+
+}
+
+.upper_part_heading{
+    display: grid;
+   justify-content: center;
+
+}
+.upper_part_heading h1{
+ display: inline-block;
+ color: white;
+ font-size: 3rem;
+font-family: uncut sans;
+ font-weight: bold;
+ letter-spacing: 1px;
+ margin-bottom: 5px;
+ margin-top: 80px;
+}
+.upper_part_heading h1>span{
+    color: #DF7D40;
+}
+.inner_container p{
+    display: inline-block;
+    color: white;
+ font-size: 1rem;
+font-family: uncut sans;
+margin: auto;
+}
+.heading_about{
+ justify-content: center;
+ margin-top: 35px;
+}
+.heading_about p{
+    width: 600px;
+    display: block;
+    margin: auto;
+font-family: 'uncut sans';
+text-align: center;
+
+}
+.get_started{
+    height: 40px;
+    background-color: #DF7D40;
+    
+    width: 35%;
+    margin: 60px auto auto auto;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+}
+.get_started input{
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 30px;
+    width: 70%;
+    font-family: 'uncut sans';
+}
+.get_started button{
+    font-family: 'uncut sans';
+    font-weight: medium;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: auto;
+}
+@media screen and (min-width:480px) {
+    
+}
+.heading_about p>span{
+    display: block;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:600px){
+   .inner_container{
+    padding-left: 7px;
+   } 
+.upper_part_heading h1{
+    font-size: 1rem;
+}
+.heading_about p{
+    font-size: 0.8rem;
+    width: 100%;
+}
+.heading_about{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.get_started{
+    width: 18rem;
+}
+}

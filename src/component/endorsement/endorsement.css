@@ -1,0 +1,22 @@
+.endorsement_main_container{
+    padding: 60px;
+    margin: auto;
+}
+
+.endorsement_tittle{
+    text-align: center;
+}
+.endorsement_tittle h3{
+    letter-spacing: 1rem;
+    color: #A0A0A0;
+}
+
+.endorsement_logo img{
+    max-width: 180px;
+    margin: 5vw;
+    margin-top: 0;
+}
+.endorsement_logo{
+    padding: 30px;
+    margin: auto;
+}

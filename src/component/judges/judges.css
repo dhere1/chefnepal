@@ -1,0 +1,45 @@
+.judges_title{
+padding: 30px;
+margin: 35px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+margin-left: 120px;
+
+}
+.judges_main_container{
+    overflow-y: hidden;
+ 
+}
+.judges_main_container h2{
+    font-family: 'uncut sans';
+    color: #000;;
+    letter-spacing: 5px;
+}
+.judges_box{
+    padding: 30px;
+    padding-top: 0px;
+    display: flex;
+    margin-top: 0px;
+    overflow-x: scroll;
+    justify-content: center;
+    overflow-y: hidden;
+    gap:150px;
+}
+.judges_box::-webkit-scrollbar {
+    display: none;
+  }
+
+.judges_title h2{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .judges_box {
+      justify-content: flex-start; 
+      gap:50px;
+  }
+  
+}

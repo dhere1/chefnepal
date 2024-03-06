@@ -1,0 +1,140 @@
+
+.about_main_container{
+    margin: auto;
+}
+.fst_inner_container_about{
+    
+    display: flex;
+    padding: 50px;
+}
+.about_content{
+    width: 40%;
+    margin: 0 auto;
+    overflow-y:hidden;
+    
+
+}
+.about_content h2{
+    font-family: 'uncut sans';
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+.about_content h2>span{
+    color: #DF7D40;
+   
+}
+.about_content p{
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 420;
+}
+.about_content p>span{
+    color: #DF7D40;
+}
+.about_content button{
+    padding: 10px;
+    width: 35%;
+    border-radius: 13px;
+    background-color: #DF7D40;
+    border-style: none;
+    color: white;
+    font-size:1rem;
+    font-family: 'uncut sans';
+    font-weight: bold;
+    margin-top: 30px;
+}
+.about_pic{
+    width: fit-content;
+}
+.about_pic img{
+    border-radius: 133px;
+    
+}
+
+.snd_inner_container{
+    background-image: url("../upperPart/public/foodimage.png");
+    height: 750px;
+    padding: 65px;
+    overflow-y: hidden;
+    
+}
+.snd_inner_container h4{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'uncut sans';
+    margin: 18px;
+  
+}
+
+.snd_inner_container h4>span{
+    color: #DF7D40;
+    
+}
+
+.snd_inner_container p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 420;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.snd_inner_container p>span{
+    color: #DF7D40;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.iframe{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.iframe iframe{
+    border-radius:38px ;
+    border-style: none;
+    height: 483px;
+    width: 977px;
+
+}
+
+@media (max-width:450px) {
+    .snd_inner_container h4{
+        font-size: 1rem;
+    }
+    .snd_inner_container p{
+    font-size: 0.8rem;
+    }
+    .snd_inner_container iframe{
+        height: 200px;
+        width: 100%;
+    }
+    .snd_inner_container {
+        height: 400px;
+    }
+    .about_content h2{
+        font-size: 1rem;
+    }
+    .fst_inner_container_about{
+        display: grid;
+    }
+
+    .about_content{
+        width:80%
+    }
+    .about_content p{
+        line-height: 30px;
+    }
+    .about_pic img{
+        width: 80%;
+        margin-top: 20px;
+
+    }
+    .about_content button{
+        width: 150px;
+    }
+
+}
